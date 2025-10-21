@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Byggmester Telemark</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Byggmester Telemark</h1>
+        <nav>
+            <a href="#tjenester">Tjenester</a>
+            <a href="#prosjekter">Prosjekter</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Din lokale byggmester i Telemark</h2>
+        <p>Vi leverer kvalitetshåndverk til avtalt tid og pris. Alt fra små oppussingsjobber til store byggeprosjekter.</p>
+        <a href="#kontakt" class="cta">Få gratis befaring</a>
+    </section>
+    <section id="tjenester">
+        <h3>Våre tjenester</h3>
+        <ul>
+            <li>Nybygg og tilbygg</li>
+            <li>Rehabilitering</li>
+            <li>Bad og våtrom</li>
+            <li>Tak og fasade</li>
+            <li>Småjobber og vedlikehold</li>
+        </ul>
+    </section>
+    <section id="prosjekter">
+        <h3>Utvalgte prosjekter</h3>
+        <div class="prosjekt-galleri">
+            <div class="prosjekt">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Nybygg hytte">
+                <p>Nybygg hytte, Lifjell</p>
+            </div>
+            <div class="prosjekt">
+                <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Rehabilitering enebolig">
+                <p>Rehabilitering enebolig, Skien</p>
+            </div>
+            <div class="prosjekt">
+                <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?auto=format&fit=crop&w=400&q=80" alt="Bad og våtrom">
+                <p>Bad og våtrom, Porsgrunn</p>
+            </div>
+        </div>
+    </section>
+    <section id="kontakt">
+        <h3>Kontakt oss</h3>
+        <form id="kontaktForm">
+            <input type="text" name="navn" placeholder="Navn" required>
+            <input type="email" name="epost" placeholder="E-post" required>
+            <input type="tel" name="telefon" placeholder="Telefon" required>
+            <textarea name="melding" placeholder="Hva kan vi hjelpe med?" required></textarea>
+            <button type="submit">Send melding</button>
+        </form>
+        <div class="kontakt-info">
+            <p><strong>E-post:</strong> byggmester@telemark.no</p>
+            <p><strong>Telefon:</strong> 987 65 432</p>
+            <p><strong>Adresse:</strong> Storgata 12, 3717 Skien</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Byggmester Telemark</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

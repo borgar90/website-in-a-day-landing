@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kings Barbershop - Klassisk herreklipp og skjeggstell i Porsgrunn. Book time i dag!">
+    <title>Kings Barbershop - Herreklipp & Skjeggstell | Porsgrunn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-icon">♔</span>
+                KINGS BARBERSHOP
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hjem">Hjem</a></li>
+                <li><a href="#tjenester">Tjenester</a></li>
+                <li><a href="#priser">Priser</a></li>
+                <li><a href="#galleri">Galleri</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+            <div class="nav-toggle" onclick="toggleMenu()">☰</div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hjem" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-icon">♔</div>
+            <h1>KINGS BARBERSHOP</h1>
+            <p class="hero-subtitle">Klassisk herreklipp & skjeggstell</p>
+            <p class="hero-text">Siden 2018 • Tradisjonelt håndverk • Moderne stil</p>
+            <div class="hero-buttons">
+                <a href="tel:+4735441234" class="btn btn-primary">📞 Ring for Time</a>
+                <a href="#priser" class="btn btn-secondary">Se Priser</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Info -->
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-cards">
+                <div class="info-card">
+                    <div class="info-icon">🕒</div>
+                    <h3>Åpningstider</h3>
+                    <p>Man-Fre: 10:00-19:00<br>Lør: 09:00-15:00<br>Søn: Stengt</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <h3>Adresse</h3>
+                    <p>Jernbanegata 15<br>3915 Porsgrunn</p>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon">📞</div>
+                    <h3>Kontakt</h3>
+                    <p>Tlf: 35 44 12 34<br>drop-in eller avtale</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="tjenester" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Våre Tjenester</h2>
+            <p class="section-subtitle">Profesjonell herreklipp og grooming</p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">✂️</div>
+                    <h3>Herreklipp</h3>
+                    <p>Klassisk klipp tilpasset din ansiktsform og stil. Inkluderer vask, klipp, styling og finish med hot towel.</p>
+                    <div class="service-features">
+                        <span>✓ Konsultasjon</span>
+                        <span>✓ Vask & Styling</span>
+                        <span>✓ Hot Towel</span>
+                    </div>
+                </div>
+
+                <div class="service-card featured">
+                    <div class="service-badge">Populær</div>
+                    <div class="service-icon">🪒</div>
+                    <h3>Skjeggstell</h3>
+                    <p>Profesjonell barbering og skjeggtrimming med varmt håndkle og aftershave. For den moderne gentleman.</p>
+                    <div class="service-features">
+                        <span>✓ Hot Towel</span>
+                        <span>✓ Straight Razor</span>
+                        <span>✓ Aftershave</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">👑</div>
+                    <h3>Kings Treatment</h3>
+                    <p>Den ultimate opplevelsen! Herreklipp, skjeggstell, ansiktsbehandling og hodebunnsmassasje.</p>
+                    <div class="service-features">
+                        <span>✓ Full pakke</span>
+                        <span>✓ Massasje</span>
+                        <span>✓ Premium produkter</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">👦</div>
+                    <h3>Barneklipp</h3>
+                    <p>Spesialtilpasset for de yngste kundene. Trygg og hyggelig atmosfære for barn under 12 år.</p>
+                    <div class="service-features">
+                        <span>✓ Barnevennlig</span>
+                        <span>✓ Tålmodige barberer</span>
+                        <span>✓ Rabattert pris</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💈</div>
+                    <h3>Fade & Design</h3>
+                    <p>Moderne fade-klipp og hårdesign. Skarpe linjer og perfekt finish for den stilbevisste.</p>
+                    <div class="service-features">
+                        <span>✓ Moderne stiler</span>
+                        <span>✓ Sharp lines</span>
+                        <span>✓ Custom design</span>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎓</div>
+                    <h3>Student & Senior</h3>
+                    <p>Rabatterte priser for studenter og seniorer (67+). Bring gyldig legitimasjon.</p>
+                    <div class="service-features">
+                        <span>✓ 20% rabatt</span>
+                        <span>✓ Alle tjenester</span>
+                        <span>✓ Krev legitimasjon</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prices Section -->
+    <section id="priser" class="prices-section">
+        <div class="container">
+            <h2 class="section-title">Prisliste</h2>
+            <p class="section-subtitle">Kvalitet til fornuftige priser</p>
+
+            <div class="price-grid">
+                <div class="price-category">
+                    <h3>✂️ Klipp</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span class="service-name">Herreklipp</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">350,-</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Herreklipp (student/senior)</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">280,-</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Barneklipp (under 12 år)</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">250,-</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Fade & Design</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">400,-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price-category">
+                    <h3>🪒 Skjegg</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span class="service-name">Skjeggtrimming</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">250,-</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Klassisk barbering</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">300,-</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Skjegg & ansiktsmassasje</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">350,-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price-category featured-price">
+                    <h3>👑 Pakker</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span class="service-name">Klipp + Skjegg</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">550,-</span>
+                        </div>
+                        <div class="price-item highlighted">
+                            <span class="service-name">Kings Treatment ⭐</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">750,-</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Far & Sønn</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">500,-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="price-category">
+                    <h3>💆 Tillegg</h3>
+                    <div class="price-list">
+                        <div class="price-item">
+                            <span class="service-name">Hot Towel behandling</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">50,-</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Hodebunnsmassasje</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">100,-</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Ansiktsbehandling</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">150,-</span>
+                        </div>
+                        <div class="price-item">
+                            <span class="service-name">Premium produkter</span>
+                            <span class="price-dots"></span>
+                            <span class="price-value">+50,-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="price-note">
+                <p>💳 Vi tar kort, Vipps og kontanter</p>
+                <p>📅 Drop-in eller bestill time på telefon</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galleri" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Vårt Arbeid</h2>
+            <p class="section-subtitle">Se resultater fra fornøyde kunder</p>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>✂️</span>
+                        <p>Klassisk klipp</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>🪒</span>
+                        <p>Skjeggstell</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>💈</span>
+                        <p>Fade design</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>👑</span>
+                        <p>Premium styling</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>✨</span>
+                        <p>Modern look</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <span>💯</span>
+                        <p>Fresh cut</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Hva Kundene Sier</h2>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Beste barbershop i Porsgrunn! Profesjonell service og alltid fornøyd med resultatet."</p>
+                    <div class="author">- Morten, 32</div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Kings Treatment er verdt hver krone. Føler meg som en ny mann etterpå!"</p>
+                    <div class="author">- Thomas, 45</div>
+                </div>
+                <div class="testimonial">
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>"Dyktige barberer som vet hva de driver med. Anbefales på det varmeste!"</p>
+                    <div class="author">- Erik, 28</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontakt" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Besøk Oss</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Kings Barbershop</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <strong>Adresse</strong>
+                            <p>Jernbanegata 15<br>3915 Porsgrunn</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <strong>Telefon</strong>
+                            <p><a href="tel:+4735441234">35 44 12 34</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <strong>E-post</strong>
+                            <p><a href="mailto:post@kingsbarbershop.no">post@kingsbarbershop.no</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div>
+                            <strong>Åpningstider</strong>
+                            <p>
+                                Mandag - Fredag: 10:00 - 19:00<br>
+                                Lørdag: 09:00 - 15:00<br>
+                                Søndag: Stengt
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <h4>Følg oss</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-btn">📘 Facebook</a>
+                            <a href="#" class="social-btn">📷 Instagram</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="booking-info">
+                    <h3>Book Time</h3>
+                    <div class="booking-options">
+                        <div class="booking-option">
+                            <h4>📞 Ring Oss</h4>
+                            <p>Den raskeste måten å bestille time på. Vi svarer i åpningstiden.</p>
+                            <a href="tel:+4735441234" class="btn btn-primary">Ring 35 44 12 34</a>
+                        </div>
+                        <div class="booking-option">
+                            <h4>🚶 Drop-in</h4>
+                            <p>Kom innom når det passer deg. Vanligvis kort ventetid.</p>
+                            <p class="note">Tips: Minst kø tirsdager og onsdager kl. 11-14</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h4>Send Melding</h4>
+                        <form>
+                            <input type="text" placeholder="Navn" required>
+                            <input type="tel" placeholder="Telefon" required>
+                            <input type="email" placeholder="E-post">
+                            <textarea placeholder="Melding / Timeavtale" rows="4" required></textarea>
+                            <button type="submit" class="btn btn-primary">Send Melding</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <p>📍 Finn Oss</p>
+                    <p><small>Jernbanegata 15, 3915 Porsgrunn</small></p>
+                    <p class="map-directions">Sentralt i Porsgrunn sentrum, ved siden av City Syd</p>
+                    <a href="https://www.google.com/maps/search/Jernbanegata+15+3915+Porsgrunn" target="_blank" class="btn btn-secondary">Åpne i Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="brand-icon">♔</span>
+                    <h3>KINGS BARBERSHOP</h3>
+                    <p>Din lokale barbershop i Porsgrunn</p>
+                </div>
+                <div class="footer-info">
+                    <p>&copy; 2025 Kings Barbershop. Alle rettigheter reservert.</p>
+                    <p class="demo-notice">🌟 Dette er en demo-nettside laget av Borgar Stensrud</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

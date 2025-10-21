@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frisørsalong Eleganse</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Frisørsalong Eleganse</h1>
+        <nav>
+            <a href="#tjenester">Tjenester</a>
+            <a href="#galleri">Galleri</a>
+            <a href="#bestill">Bestill time</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Velkommen til Eleganse</h2>
+        <p>Din frisør i hjertet av Telemark. Vi tilbyr moderne klipp, styling og farge til hele familien.</p>
+        <a href="#bestill" class="cta">Bestill time</a>
+    </section>
+    <section id="tjenester">
+        <h3>Våre tjenester</h3>
+        <ul>
+            <li>Dame- og herreklipp</li>
+            <li>Barneklipp</li>
+            <li>Farging og striper</li>
+            <li>Styling til fest</li>
+            <li>Skjegg og barbering</li>
+        </ul>
+    </section>
+    <section id="galleri">
+        <h3>Galleri</h3>
+        <div class="bilde-galleri">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="Dameklipp">
+            <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=400&q=80" alt="Herreklipp">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="Farging">
+        </div>
+    </section>
+    <section id="bestill">
+        <h3>Bestill time</h3>
+        <form id="bestillForm">
+            <input type="text" name="navn" placeholder="Navn" required>
+            <input type="email" name="epost" placeholder="E-post" required>
+            <input type="tel" name="telefon" placeholder="Telefon" required>
+            <select name="tjeneste" required>
+                <option value="">Velg tjeneste</option>
+                <option value="Dameklipp">Dameklipp</option>
+                <option value="Herreklipp">Herreklipp</option>
+                <option value="Barneklipp">Barneklipp</option>
+                <option value="Farging">Farging</option>
+                <option value="Styling">Styling</option>
+                <option value="Skjegg">Skjegg og barbering</option>
+            </select>
+            <input type="date" name="dato" required>
+            <button type="submit">Send bestilling</button>
+        </form>
+        <div class="kontakt-info">
+            <p><strong>E-post:</strong> post@elegansefrisor.no</p>
+            <p><strong>Telefon:</strong> 912 34 567</p>
+            <p><strong>Adresse:</strong> Torget 5, 3724 Skien</p>
+        </div>
+    </section>
+    <footer>
+        <p>© 2025 Frisørsalong Eleganse</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

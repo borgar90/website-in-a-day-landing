@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    background: #fff7f0;
+    color: #222;
+}
+header {
+    background: #c084fc;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: 700;
+}
+.hero {
+    background: linear-gradient(90deg, #f472b6 0%, #c084fc 100%);
+    color: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+.cta {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem 2rem;
+    background: #f59e0b;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.cta:hover {
+    background: #d97706;
+}
+section {
+    margin: 2rem auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    padding: 2rem;
+}
+ul {
+    padding-left: 1.5rem;
+}
+.bilde-galleri {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bilde-galleri img {
+    width: 220px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.07);
+}
+#bestillForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+#bestillForm input, #bestillForm select {
+    padding: 0.75rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+#bestillForm button {
+    background: #c084fc;
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#bestillForm button:hover {
+    background: #a855f7;
+}
+.kontakt-info p {
+    margin: 0.5rem 0;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #c084fc;
+    color: #fff;
+    margin-top: 2rem;
+    border-radius: 0 0 12px 12px;
+}
+@media (max-width: 900px) {
+    .bilde-galleri {
+        flex-direction: column;
+        align-items: center;
+    }
+    .bilde-galleri img {
+        width: 90%;
+    }
+}

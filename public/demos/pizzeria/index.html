@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bella Napoli - Autentisk italiensk pizza i Skien. Ferske ingredienser, steinovnsbakt. Bestill takeaway eller spis hos oss!">
+    <title>Bella Napoli - Autentisk Italiensk Pizza i Skien</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">🍕 Bella Napoli</div>
+            <ul class="nav-menu">
+                <li><a href="#hjem">Hjem</a></li>
+                <li><a href="#meny">Meny</a></li>
+                <li><a href="#om">Om Oss</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+            <div class="nav-toggle" onclick="toggleMenu()">☰</div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hjem" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Bella Napoli</h1>
+            <p class="hero-subtitle">Autentisk Italiensk Pizza</p>
+            <p class="hero-text">Steinovnsbakt med kjærlighet • Ferske ingredienser fra Italia</p>
+            <div class="hero-buttons">
+                <a href="tel:+4735551234" class="btn btn-primary">📞 Ring for Bestilling</a>
+                <a href="#meny" class="btn btn-secondary">Se Meny</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Bar -->
+    <section class="info-bar">
+        <div class="container">
+            <div class="info-item">
+                <span class="icon">🕒</span>
+                <div>
+                    <strong>Åpningstider</strong>
+                    <p>Man-Søn: 15:00-22:00</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <span class="icon">📍</span>
+                <div>
+                    <strong>Adresse</strong>
+                    <p>Storgata 42, 3710 Skien</p>
+                </div>
+            </div>
+            <div class="info-item">
+                <span class="icon">📞</span>
+                <div>
+                    <strong>Telefon</strong>
+                    <p>35 55 12 34</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="meny" class="menu-section">
+        <div class="container">
+            <h2 class="section-title">Vår Meny</h2>
+            <p class="section-subtitle">Alle pizzaer steinovnsbakt på tradisjonelt vis</p>
+
+            <div class="menu-category">
+                <h3>🍕 Klassiske Pizzaer</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>Margherita</h4>
+                            <span class="price">139,-</span>
+                        </div>
+                        <p>Tomatsaus, mozzarella, basilikum, olivenolje</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>Pepperoni</h4>
+                            <span class="price">159,-</span>
+                        </div>
+                        <p>Tomatsaus, mozzarella, pepperoni</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>Quattro Stagioni</h4>
+                            <span class="price">169,-</span>
+                        </div>
+                        <p>Tomatsaus, mozzarella, skinke, sopp, artisjokk, oliven</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>Prosciutto e Funghi</h4>
+                            <span class="price">165,-</span>
+                        </div>
+                        <p>Tomatsaus, mozzarella, skinke, ferske sjampinjong</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h3>👨‍🍳 Spesial Pizzaer</h3>
+                <div class="menu-grid">
+                    <div class="menu-item featured">
+                        <div class="menu-item-header">
+                            <h4>Bella Napoli Spesial ⭐</h4>
+                            <span class="price">189,-</span>
+                        </div>
+                        <p>Tomatsaus, mozzarella, parmaskinke, rucola, parmesan, cherrytomater</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>Quattro Formaggi</h4>
+                            <span class="price">175,-</span>
+                        </div>
+                        <p>Fire oster: mozzarella, gorgonzola, parmesan, fontina</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>Diavola (Sterk)</h4>
+                            <span class="price">169,-</span>
+                        </div>
+                        <p>Tomatsaus, mozzarella, spicy salami, jalapeños, chili</p>
+                    </div>
+
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>Vegetariana</h4>
+                            <span class="price">159,-</span>
+                        </div>
+                        <p>Tomatsaus, mozzarella, grillede grønnsaker, oliven</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h3>🥤 Drikke & Tilbehør</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>Brus 0.5L</h4>
+                            <span class="price">35,-</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>San Pellegrino</h4>
+                            <span class="price">45,-</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>Hvitløksbrød</h4>
+                            <span class="price">55,-</span>
+                        </div>
+                    </div>
+                    <div class="menu-item">
+                        <div class="menu-item-header">
+                            <h4>Salat</h4>
+                            <span class="price">65,-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="om" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Om Bella Napoli</h2>
+                    <p>Velkommen til Bella Napoli - Skiens mest autentiske pizzaopplevelse!</p>
+                    <p>Vi har siden 2015 servert ekte italiensk pizza bakt i vår steinovn importert direkte fra Napoli. Hver pizza lages med kjærlighet og respekt for de tradisjonelle oppskriftene.</p>
+                    <p>Våre ingredienser importeres fra Italia, og deigen får fermentere i 48 timer for den perfekte smaken og teksturen.</p>
+                    <div class="features">
+                        <div class="feature">✓ Steinovnsbakt ved 450°C</div>
+                        <div class="feature">✓ Importerte italienske ingredienser</div>
+                        <div class="feature">✓ 48 timers fermentert deig</div>
+                        <div class="feature">✓ Takeaway & Spis inne</div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="placeholder-image">
+                        🍕<br>
+                        <small>Steinovn fra Napoli</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontakt" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Kontakt Oss</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Besøk Oss</h3>
+                    <div class="contact-item">
+                        <strong>📍 Adresse:</strong>
+                        <p>Storgata 42<br>3710 Skien</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📞 Telefon:</strong>
+                        <p><a href="tel:+4735551234">35 55 12 34</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📧 E-post:</strong>
+                        <p><a href="mailto:post@bellanapoli.no">post@bellanapoli.no</a></p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>🕒 Åpningstider:</strong>
+                        <p>
+                            Mandag - Søndag: 15:00 - 22:00<br>
+                            <em>Kjøkkenet stenger 21:30</em>
+                        </p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘 Facebook</a>
+                        <a href="#" class="social-link">📷 Instagram</a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send Oss en Melding</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Ditt Navn" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Din E-post" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Telefon">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Din Melding" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Melding</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Map -->
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <p>📍 Google Maps</p>
+                    <p><small>Storgata 42, 3710 Skien</small></p>
+                    <a href="https://www.google.com/maps/search/Storgata+42+3710+Skien" target="_blank" class="btn btn-secondary">Åpne i Google Maps</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Bella Napoli. Alle rettigheter reservert.</p>
+            <p class="demo-notice">🌟 Dette er en demo-nettside laget av Borgar Stensrud</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
